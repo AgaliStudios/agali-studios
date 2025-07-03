@@ -131,7 +131,14 @@ function Header() {
           <Divider />
           <List>
             {pages.map((page) => (
-              <ListItem key={page.link} disablePadding onClick={() => navigate(page.link)}>
+              <ListItem
+                key={page.link}
+                disablePadding
+                onClick={() => {
+                  navigate(page.link);
+                  handleDrawerToggle();
+                }}
+              >
                 <ListItemButton sx={{ textAlign: 'center' }}>
                   <ListItemText primary={page.name} />
                 </ListItemButton>
