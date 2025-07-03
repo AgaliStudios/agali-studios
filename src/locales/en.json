@@ -1,0 +1,30 @@
+{
+  "header": {
+    "myApp": "My MUI App",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "title": " My MUI App. All rights reserved"
+  },
+  "home": {
+    "title": "Welcome to the Home Page",
+    "subtitle": "This is the homepage of our awesome MUI + React Router app. Use the navigation above to explore."
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "This page contains information about our application, goals, and team.",
+    "text": "Material-UI helps us create beautiful React apps with minimal effort."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions? Send us a message!",
+    "send": "Send"
+  },
+  "errorPage": {
+    "error404": "404 - Page Not Found",
+    "subtitle": "Sorry, the page you are looking for does not exist.",
+    "goHome": "Go to Home"
+  }
+}
