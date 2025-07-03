@@ -21,7 +21,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import logo from '../../assets/logo.png';
-import { TopBar } from './TopBar/TopBar';
+import TopBar from './TopBar';
 
 function Header() {
   const { t } = useTranslation();
@@ -159,13 +159,13 @@ function Header() {
   );
 
   return (
-    <>
+    <Box>
       <TopBar />
       <AppBar
         position="sticky"
         elevation={1}
         sx={{
-          top: 0,
+          // top: 0,
           zIndex: (theme) => theme.zIndex.appBar,
         }}
       >
@@ -176,7 +176,7 @@ function Header() {
           </Toolbar>
         </Container>
       </AppBar>
-    </>
+    </Box>
   );
 }
 
