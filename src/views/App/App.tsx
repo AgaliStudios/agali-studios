@@ -20,6 +20,7 @@ export default function App() {
   ];
 
   const router = createBrowserRouter(routes, {
+    basename: '/agali-studios',
     future: {
       v7_relativeSplatPath: true,
     },
