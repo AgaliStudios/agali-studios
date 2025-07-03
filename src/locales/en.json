@@ -1,12 +1,12 @@
 {
   "header": {
-    "myApp": "My MUI App",
+    "myApp": "Agali Studios",
     "home": "Home",
     "about": "About",
     "contact": "Contact"
   },
   "footer": {
-    "title": " My MUI App. All rights reserved"
+    "title": "Agali Studios. All rights reserved"
   },
   "home": {
     "title": "Welcome to the Home Page",

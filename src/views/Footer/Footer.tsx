@@ -18,7 +18,7 @@ function Footer() {
       }}
     >
       <Typography variant="body2" color="text.secondary">
-        © {new Date().getFullYear()} {t('footer.title')}
+        © {2025} {t('footer.title')}
       </Typography>
     </Box>
   );
