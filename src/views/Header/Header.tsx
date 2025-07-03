@@ -40,6 +40,12 @@ function Header() {
         }}
       >
         <Box sx={{ display: 'flex', gap: 2 }}>
+          <Button color="inherit" component={RouterLink} to="/reservations">
+            {t('header.reservations')}
+          </Button>
+          <Button color="inherit" component={RouterLink} to="/about">
+            {t('header.about')}
+          </Button>
           <Button color="inherit" component={RouterLink} to="/contact">
             {t('header.contact')}
           </Button>
@@ -62,6 +68,10 @@ function Header() {
           <Button color="inherit" component={RouterLink} to="/">
             {t('header.home')}
           </Button>
+          <Button color="inherit" component={RouterLink} to="/accommodation">
+            {t('header.accommodation')}
+          </Button>
+
           <Box
             sx={{ cursor: 'pointer' }}
             onClick={() => {
@@ -70,8 +80,12 @@ function Header() {
           >
             <img src={logo} alt="agali-studios-logo" height={80} />
           </Box>
-          <Button color="inherit" component={RouterLink} to="/about">
-            {t('header.about')}
+
+          <Button color="inherit" component={RouterLink} to="/location">
+            {t('header.location')}
+          </Button>
+          <Button color="inherit" component={RouterLink} to="/directions">
+            {t('header.directions')}
           </Button>
         </Box>
       </Toolbar>

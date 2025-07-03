@@ -1,9 +1,13 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from '../About';
+import Accommodation from '../Accommodation';
 import Contact from '../Contact';
+import Directions from '../Directions';
 import ErrorPage from '../ErrorPage';
 import Home from '../Home';
 import Layout from '../Layout';
+import Location from '../Location';
+import Reservations from '../Reservations';
 
 export default function App() {
   const routes = [
@@ -13,7 +17,11 @@ export default function App() {
       children: [
         { index: true, element: <Home /> },
         { path: 'about', element: <About /> },
+        { path: 'accommodation', element: <Accommodation /> },
         { path: 'contact', element: <Contact /> },
+        { path: 'directions', element: <Directions /> },
+        { path: 'reservations', element: <Reservations /> },
+        { path: 'location', element: <Location /> },
         { path: '*', element: <ErrorPage /> },
       ],
     },

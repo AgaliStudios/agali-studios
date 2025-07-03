@@ -3,7 +3,11 @@
     "myApp": "Agali Studios",
     "home": "Home",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "reservations": "Reservations",
+    "location": "Location",
+    "accommodation": "Accommodation",
+    "directions": "Directions"
   },
   "footer": {
     "title": "Agali Studios. All rights reserved"
@@ -12,10 +16,27 @@
     "title": "Welcome to the Home Page",
     "subtitle": "This is the homepage of our awesome MUI + React Router app. Use the navigation above to explore."
   },
+  "directions": {
+    "title": "Directions",
+    "subtitle": "Directions subtitle"
+  },
+  "reservations": {
+    "title": "Reservations",
+    "subtitle": "Reservations subtitle"
+  },
+  "location": {
+    "title": "Location",
+    "subtitle": "Location subtitle"
+  },
   "about": {
     "title": "About Us",
-    "subtitle": "This page contains information about our application, goals, and team.",
-    "text": "Material-UI helps us create beautiful React apps with minimal effort."
+    "subtitle": "About Us Subtitle",
+    "text": "About Us Text"
+  },
+  "accommodation": {
+    "title": "Accommodation",
+    "subtitle": "Accommodation Subtitle",
+    "text": "Accommodation Text"
   },
   "contact": {
     "title": "Contact Us",
