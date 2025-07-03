@@ -22,7 +22,6 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import logo from '../../assets/logo.png';
-import TopBar from './TopBar';
 
 function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -161,26 +160,22 @@ function Header() {
   );
 
   return (
-    <Box>
-      <TopBar />
-      <AppBar
-        position="sticky"
-        elevation={1}
-        sx={{
-          // top: 0,
-          backgroundColor: theme.palette.background.paper,
-          color: theme.palette.text.primary,
-          zIndex: (theme) => theme.zIndex.appBar,
-        }}
-      >
-        <Container maxWidth="xl">
-          <Toolbar sx={{ py: 2 }}>
-            {renderDesktopNav}
-            {renderMobileNav}
-          </Toolbar>
-        </Container>
-      </AppBar>
-    </Box>
+    <AppBar
+      position="sticky"
+      sx={{
+        top: 0,
+        backgroundColor: theme.palette.background.paper,
+        color: theme.palette.text.primary,
+        zIndex: (theme) => theme.zIndex.appBar,
+      }}
+    >
+      <Container maxWidth="xl">
+        <Toolbar sx={{ py: 2 }}>
+          {renderDesktopNav}
+          {renderMobileNav}
+        </Toolbar>
+      </Container>
+    </AppBar>
   );
 }
 
