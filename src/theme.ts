@@ -5,14 +5,14 @@ const theme = createTheme({
   palette: {
     mode: 'light', // 'dark' or 'light'
     primary: {
-      main: '#1976d2',
+      main: '#e5e3de',
       light: '#42a5f5',
       dark: '#1565c0',
       contrastText: '#fff',
     },
     secondary: {
-      main: '#9c27b0',
-      light: '#ba68c8',
+      main: '#e5e3de',
+      light: '#CFBA9C',
       dark: '#7b1fa2',
       contrastText: '#fff',
     },
@@ -45,7 +45,7 @@ const theme = createTheme({
       paper: '#ffffff',
     },
     text: {
-      primary: '#212121',
+      primary: '#595f49',
       secondary: '#757575',
       disabled: '#bdbdbd',
     },

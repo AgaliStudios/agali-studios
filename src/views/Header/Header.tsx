@@ -16,6 +16,7 @@ import {
   MenuItem,
   Toolbar,
   Typography,
+  useTheme,
 } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -24,9 +25,10 @@ import logo from '../../assets/logo.png';
 import TopBar from './TopBar';
 
 function Header() {
+  const [mobileOpen, setMobileOpen] = React.useState(false);
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const theme = useTheme();
 
   const handleDrawerToggle = () => {
     setMobileOpen((prev) => !prev);
@@ -166,6 +168,8 @@ function Header() {
         elevation={1}
         sx={{
           // top: 0,
+          backgroundColor: theme.palette.background.paper,
+          color: theme.palette.text.primary,
           zIndex: (theme) => theme.zIndex.appBar,
         }}
       >
