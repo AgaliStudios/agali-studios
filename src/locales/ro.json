@@ -12,15 +12,15 @@
   "footer": {
     "title": "Agali Studios. Toate drepturile rezervate",
     "contact": "Contact",
-    "additionalInfo": "Informații Suplimentare",
-    "howToCome": "Cum să ajungeți",
+    "additionalInfo": "Informații",
+    "howToCome": "Cum să ajungi",
     "followUs": "Urmărește-ne"
   },
   "home": {
     "title": "Bine ați venit",
     "text1": "Agali Studios este o afacere de familie care a început în 2025.",
-    "text2": "Este situat pe malul mării, pe drumul provincial Aidipsos-Lichados, la câteva minute cu mașina de porturile Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și ieși la masă sau pentru o băutură.",
-    "text3": "Unitatea de cazare are în total 4 apartamente duble cu balcon. Sunt complet mobilate și oferă tot ce are nevoie un oaspete pentru un sejur plăcut. De pe balcon puteți admira vederea spre mare, iar în grădina noastră puteți sta la foișor, lângă măslini."
+    "text2": "Este situat pe malul mării, pe drumul provincial Edipsos-Lichada, la doar câteva minute cu mașina de portul Loutra Edipsou sau Agiokampos. În Loutra Edipsou puteți face cumpărături și puteți savura mâncare și băuturi.",
+    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Toate sunt complet mobilate și echipate pentru un sejur plăcut. De pe balcon puteți admira priveliștea spre mare, iar în grădina noastră vă puteți relaxa în foișor lângă măslini."
   },
   "directions": {
     "title": "Indicații",
@@ -28,11 +28,16 @@
   },
   "reservations": {
     "title": "Rezervări",
-    "subtitle": "Subtitlu rezervări"
+    "text1": "Vă mulțumim pentru interesul de a vă caza la noi!",
+    "text2": "Disponibilitatea se poate verifica prin formularul de mai jos. Dacă introduceți datele dorite și numărul de persoane, pagina vă va redirecționa automat către o platformă sigură de rezervări.",
+    "text3": "Dacă aveți întrebări sau preferați să faceți rezervarea telefonic, nu ezitați să ne contactați.",
+    "reservationButton": "Verifică disponibilitatea / Rezervă"
   },
   "location": {
     "title": "Locație",
-    "subtitle": "Subtitlu locație"
+    "text1": "Agali Studios este o afacere de familie care a început în 2025.",
+    "text2": "Este situat pe malul mării, pe drumul provincial Edipsos-Lichada, la doar câteva minute cu mașina de portul Loutra Edipsou sau Agiokampos. În Loutra Edipsou puteți face cumpărături și puteți savura mâncare și băuturi.",
+    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Toate sunt complet mobilate și echipate pentru un sejur plăcut. De pe balcon puteți admira priveliștea spre mare, iar în grădina noastră vă puteți relaxa în foișor lângă măslini."
   },
   "about": {
     "title": "Despre noi",
@@ -41,17 +46,40 @@
   },
   "accommodation": {
     "title": "Cazare",
-    "subtitle": "Subtitlu cazare",
-    "text": "Text cazare"
+    "text1": "Studiourile noastre de 28 mp, cu pat matrimonial, sunt ideale pentru două persoane/cupluri. Sunt complet mobilate și echipate cu aparate electrice pentru un sejur confortabil și o vacanță plăcută în zona noastră.",
+    "text2": "Mai exact, dispun de frigider, plite de gătit, cuptor încorporat, fierbător și toaster.",
+    "text3": "De asemenea, sunt echipate cu farfurii, pahare, tacâmuri și ustensile de bază pentru gătit, pe care le puteți folosi pe durata șederii.",
+    "text4": "În plus, toate apartamentele au baie proprie cu duș, prosoape și articole de igienă personală.",
+    "text5": "Balconul spațios are scaune și masă, pentru a vă bucura de micul dejun cu vedere către Golful Eubeic de Nord.",
+    "amenities": "Facilități",
+    "roomSize": "28 mp",
+    "roomSizeComment": "Ideal pentru cupluri",
+    "bedSize": "Pat matrimonial",
+    "bedSizeComment": "Confort pentru 2 persoane",
+    "beach": "Vedere la mare",
+    "beachComment": "În Golful Eubeic de Nord",
+    "oven": "Cuptor încorporat",
+    "stove": "Plite de gătit",
+    "kitchenware": "Bucătărie complet echipată",
+    "fridge": "Frigider",
+    "toaster": "Toaster",
+    "kettle": "Fierbător",
+    "shower": "Duș",
+    "towels": "Prosoape",
+    "hygieneSet": "Articole de igienă personală"
   },
   "contact": {
     "title": "Contactați-ne",
-    "subtitle": "Aveți întrebări? Trimiteți-ne un mesaj!",
-    "send": "Trimite"
+    "haveQuestions": "Aveți întrebări sau doriți să faceți o rezervare? Suntem mereu aici să vă ajutăm!",
+    "onYourService": "<1>Agali Studios</1> este o afacere de familie creată cu dragoste pentru ospitalitate și respect pentru oaspeți. Așteptăm cu nerăbdare să vă primim în locul nostru frumos de lângă mare și să vă oferim un sejur relaxant și confortabil.",
+    "contactPhone": "Numere de contact:",
+    "location": "Locație:",
+    "locationDetails": "Drumul provincial Edipsos - Lichada, la câteva minute de Loutra Edipsou și Agiokampos",
+    "happyToHelp": "Fie că este vorba de vacanță de vară sau o escapadă scurtă, suntem aici să facem șederea dvs. specială. Contactați-ne azi – vă vom ajuta cu plăcere!"
   },
   "errorPage": {
     "error404": "404 - Pagina nu a fost găsită",
-    "subtitle": "Ne pare rău, pagina pe care o căutați nu există.",
-    "goHome": "Mergi la Acasă"
+    "subtitle": "Ne pare rău, pagina căutată nu există.",
+    "goHome": "Du-te la Acasă"
   }
 }

@@ -1,34 +1,55 @@
-// src/pages/Contact.tsx
+import { Container, Grid } from '@mui/material';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
-import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 export default function Contact() {
   const { t } = useTranslation();
   return (
-    <Container maxWidth="xl">
-      <Typography variant="h3" component="h1" gutterBottom>
-        {t('contact.title')}
-      </Typography>
-      <Typography variant="body1" color="text.secondary" paragraph>
-        {t('contact.subtitle')}
-      </Typography>
-      <Box
-        component="form"
-        noValidate
-        autoComplete="off"
-        sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}
+    <Grid container>
+      <Container
+        maxWidth="xl"
+        sx={{
+          py: 3,
+          display: 'flex',
+        }}
       >
-        <TextField label="Name" variant="outlined" required fullWidth />
-        <TextField label="Email" type="email" variant="outlined" required fullWidth />
-        <TextField label="Message" variant="outlined" multiline rows={4} required fullWidth />
-        <Button variant="contained" color="primary" type="submit">
-          {t('contact.send')}
-        </Button>
-      </Box>
-    </Container>
+        <Grid size={{ xs: 12 }}>
+          <Box component="section">
+            <Typography
+              variant="h3"
+              component="h1"
+              gutterBottom
+              sx={{ textAlign: 'center', textTransform: 'uppercase' }}
+            >
+              {t('contact.title')}
+            </Typography>
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+              <Typography variant="body1" sx={{ textAlign: 'center' }}>
+                {t('contact.haveQuestions')}
+              </Typography>
+              <Typography variant="body1" sx={{ textAlign: 'center' }}>
+                <Trans i18nKey="contact.onYourService" components={{ strong: <strong /> }} />
+              </Typography>
+              <Typography variant="body1" sx={{ textAlign: 'center' }}>
+                📞 <strong>{t('contact.contactPhone')}</strong>
+                <br />
+                +30 698 704 5409
+                <br />
+                +30 694 375 6551
+              </Typography>
+              <Typography variant="body1" sx={{ textAlign: 'center' }}>
+                📍 <strong>{t('contact.location')}</strong>
+                <br />
+                {t('contact.locationDetails')}
+              </Typography>
+              <Typography variant="body1" sx={{ textAlign: 'center' }}>
+                {t('contact.happyToHelp')}
+              </Typography>
+            </Box>
+          </Box>
+        </Grid>
+      </Container>
+    </Grid>
   );
 }

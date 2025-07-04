@@ -3,11 +3,10 @@ import { createTheme } from '@mui/material/styles';
 // Define your custom palette, typography, spacing, etc.
 const theme = createTheme({
   palette: {
-    mode: 'light', // 'dark' or 'light'
     primary: {
       main: '#e5e3de',
       light: '#42a5f5',
-      dark: '#1565c0',
+      dark: '#595f49',
       contrastText: '#fff',
     },
     secondary: {
@@ -46,7 +45,7 @@ const theme = createTheme({
     },
     text: {
       primary: '#595f49',
-      secondary: '#757575',
+      secondary: '#e5e3de',
       disabled: '#bdbdbd',
     },
   },

@@ -12,46 +12,74 @@
   "footer": {
     "title": "Agali Studios. All rights reserved",
     "contact": "Contact",
-    "additionalInfo": "Additional Information",
-    "howToCome": "How to Reach Us",
-    "followUs": "Follow Us"
+    "additionalInfo": "Information",
+    "howToCome": "How to get here",
+    "followUs": "Follow us"
   },
   "home": {
     "title": "Welcome",
-    "text1": "Agali Studios rental apartments are a family business started in 2025.",
-    "text2": "They are located by the sea on the provincial road Aidipsos-Lichados, just a few minutes by car from the ports of Loutra Aidipsou or Agiokampos. In Loutra Aidipsou, you can do your shopping and go out for food and drinks.",
-    "text3": "The accommodation has a total of 4 double apartments with balconies. They are all fully furnished and have everything a guest needs for a pleasant stay. From the balcony, you can enjoy the sea view, while in our garden you can sit at the gazebo next to the olive trees."
+    "text1": "Agali Studios is a family-run rental business that started in 2025.",
+    "text2": "It is located by the sea on the Edipsos-Lichada provincial road, just a few minutes by car from the port of Loutra Edipsou or Agiokampos. In Loutra Edipsou, you can shop and enjoy food and drinks.",
+    "text3": "The property has a total of 4 double apartments with balconies. All are fully furnished and equipped for a pleasant stay. From the balcony, you can enjoy sea views, and in our garden, you can relax in the gazebo next to the olive trees."
   },
   "directions": {
     "title": "Directions",
-    "subtitle": "Directions Subtitle"
+    "subtitle": "Directions subtitle"
   },
   "reservations": {
     "title": "Reservations",
-    "subtitle": "Reservations Subtitle"
+    "text1": "Thank you for your interest in staying with us!",
+    "text2": "You can check availability through the form below. By entering your desired dates and number of guests, our site will redirect you to a secure booking platform.",
+    "text3": "If you have any questions or prefer to book by phone, feel free to contact us.",
+    "reservationButton": "Check Availability / Book"
   },
   "location": {
     "title": "Location",
-    "subtitle": "Location Subtitle"
+    "text1": "Agali Studios is a family-run rental business that started in 2025.",
+    "text2": "It is located by the sea on the Edipsos-Lichada provincial road, just a few minutes by car from the port of Loutra Edipsou or Agiokampos. In Loutra Edipsou, you can shop and enjoy food and drinks.",
+    "text3": "The property has a total of 4 double apartments with balconies. All are fully furnished and equipped for a pleasant stay. From the balcony, you can enjoy sea views, and in our garden, you can relax in the gazebo next to the olive trees."
   },
   "about": {
     "title": "About Us",
-    "subtitle": "About Us Subtitle",
-    "text": "About us text"
+    "subtitle": "About subtitle",
+    "text": "Text about us"
   },
   "accommodation": {
     "title": "Accommodation",
-    "subtitle": "Accommodation Subtitle",
-    "text": "Accommodation text"
+    "text1": "Our 28m² studios with a queen-size bed are ideal for two people/couples. They are fully furnished and equipped with appliances to ensure a comfortable stay and a pleasant vacation in our area.",
+    "text2": "Specifically, they include a refrigerator, stovetop, built-in oven, kettle, and toaster.",
+    "text3": "They are also equipped with plates, glasses, cutlery, and basic cooking utensils for use during your stay.",
+    "text4": "Each apartment also has a private bathroom with a shower, towels, and toiletries.",
+    "text5": "The spacious balcony includes chairs and a table where you can enjoy breakfast with a view of the North Euboean Gulf.",
+    "amenities": "Amenities",
+    "roomSize": "28 sqm",
+    "roomSizeComment": "Ideal for couples",
+    "bedSize": "Queen-size bed",
+    "bedSizeComment": "Comfort for 2 people",
+    "beach": "Sea view",
+    "beachComment": "Overlooking the North Euboean Gulf",
+    "oven": "Built-in Oven",
+    "stove": "Cooking Stovetop",
+    "kitchenware": "Fully Equipped Kitchen",
+    "fridge": "Refrigerator",
+    "toaster": "Toaster",
+    "kettle": "Kettle",
+    "shower": "Shower",
+    "towels": "Towels",
+    "hygieneSet": "Toiletries"
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Have questions? Send us a message!",
-    "send": "Send"
+    "haveQuestions": "Have questions or want to book? We're always here to help!",
+    "onYourService": "<1>Agali Studios</1> is a family business created with love for hospitality and respect for guests. We look forward to welcoming you to our beautiful place by the sea and offering you a carefree and comfortable stay.",
+    "contactPhone": "Contact Numbers:",
+    "location": "Location:",
+    "locationDetails": "Edipsos - Lichada provincial road, minutes from Loutra Edipsou & Agiokampos",
+    "happyToHelp": "Whether it’s for a summer vacation or a short getaway, we’re here to make your stay special. Contact us today – we’d be happy to help!"
   },
   "errorPage": {
     "error404": "404 - Page Not Found",
-    "subtitle": "Sorry, the page you are looking for does not exist.",
+    "subtitle": "Sorry, the page you’re looking for doesn’t exist.",
     "goHome": "Go to Home"
   }
 }
