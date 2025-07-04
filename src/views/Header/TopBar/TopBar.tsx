@@ -41,7 +41,7 @@ function TopBar() {
         py: 1,
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Grid container justifyContent="flex-end" spacing={2}>
           <Button color="inherit" component={RouterLink} to="/reservations">
             {t('header.reservations')}

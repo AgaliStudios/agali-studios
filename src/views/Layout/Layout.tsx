@@ -15,7 +15,7 @@ export default function Layout() {
       {/* Main content centered and contained */}
       <Grid size={{ xs: 12 }} sx={{ flexGrow: 1, width: '100%' }}>
         <ImageCarousel />
-        <Container maxWidth="lg" sx={{ py: 3 }}>
+        <Container maxWidth="xl" sx={{ py: 3 }}>
           <Outlet />
         </Container>
       </Grid>

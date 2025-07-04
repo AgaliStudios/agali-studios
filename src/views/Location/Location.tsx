@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 function Location() {
   const { t } = useTranslation();
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="xl">
       <Paper elevation={3} sx={{ p: 4 }}>
         <Typography variant="h3" component="h1" gutterBottom>
           {t('location.title')}
