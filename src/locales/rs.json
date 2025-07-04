@@ -1,0 +1,51 @@
+{
+  "header": {
+    "myApp": "Agali Studios",
+    "home": "Početna",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "reservations": "Rezervacije",
+    "location": "Lokacija",
+    "accommodation": "Smeštaj",
+    "directions": "Uputstva"
+  },
+  "footer": {
+    "title": "Agali Studios. Sva prava zadržana"
+  },
+  "home": {
+    "title": "Dobrodošli na početnu stranu",
+    "subtitle": "Ovo je početna stranica naše sjajne MUI + React Router aplikacije. Koristite navigaciju iznad da istražite."
+  },
+  "directions": {
+    "title": "Uputstva",
+    "subtitle": "Podnaslov uputstava"
+  },
+  "reservations": {
+    "title": "Rezervacije",
+    "subtitle": "Podnaslov rezervacija"
+  },
+  "location": {
+    "title": "Lokacija",
+    "subtitle": "Podnaslov lokacije"
+  },
+  "about": {
+    "title": "O nama",
+    "subtitle": "Podnaslov o nama",
+    "text": "Tekst o nama"
+  },
+  "accommodation": {
+    "title": "Smeštaj",
+    "subtitle": "Podnaslov smeštaja",
+    "text": "Tekst smeštaja"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Imate pitanja? Pošaljite nam poruku!",
+    "send": "Pošalji"
+  },
+  "errorPage": {
+    "error404": "404 - Stranica nije pronađena",
+    "subtitle": "Žao nam je, stranica koju tražite ne postoji.",
+    "goHome": "Idi na Početnu"
+  }
+}

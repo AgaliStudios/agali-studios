@@ -1,0 +1,51 @@
+{
+  "header": {
+    "myApp": "Agali Studios",
+    "home": "Acasă",
+    "about": "Despre",
+    "contact": "Contact",
+    "reservations": "Rezervări",
+    "location": "Locație",
+    "accommodation": "Cazare",
+    "directions": "Indicații"
+  },
+  "footer": {
+    "title": "Agali Studios. Toate drepturile rezervate"
+  },
+  "home": {
+    "title": "Bine ați venit pe pagina principală",
+    "subtitle": "Aceasta este pagina principală a aplicației noastre grozave MUI + React Router. Folosiți navigarea de mai sus pentru a explora."
+  },
+  "directions": {
+    "title": "Indicații",
+    "subtitle": "Subtitlu indicații"
+  },
+  "reservations": {
+    "title": "Rezervări",
+    "subtitle": "Subtitlu rezervări"
+  },
+  "location": {
+    "title": "Locație",
+    "subtitle": "Subtitlu locație"
+  },
+  "about": {
+    "title": "Despre noi",
+    "subtitle": "Subtitlu despre noi",
+    "text": "Text despre noi"
+  },
+  "accommodation": {
+    "title": "Cazare",
+    "subtitle": "Subtitlu cazare",
+    "text": "Text cazare"
+  },
+  "contact": {
+    "title": "Contactați-ne",
+    "subtitle": "Aveți întrebări? Trimiteți-ne un mesaj!",
+    "send": "Trimite"
+  },
+  "errorPage": {
+    "error404": "404 - Pagină negăsită",
+    "subtitle": "Ne pare rău, pagina pe care o căutați nu există.",
+    "goHome": "Du-te la Acasă"
+  }
+}

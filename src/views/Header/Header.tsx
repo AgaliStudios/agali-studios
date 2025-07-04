@@ -21,11 +21,15 @@ import {
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
+import enFlag from '../../assets/flags/gb.svg';
+import grFlag from '../../assets/flags/gr.svg';
+import roFlag from '../../assets/flags/ro.svg';
+import rsFlag from '../../assets/flags/rs.svg';
 import logo from '../../assets/logo.png';
 
 function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const theme = useTheme();
 
@@ -42,7 +46,7 @@ function Header() {
   const handleMenuClose = (lang?: string) => {
     setAnchorEl(null);
     if (lang) {
-      // i18n.changeLanguage(lang);
+      i18n.changeLanguage(lang);
     }
   };
 
@@ -54,6 +58,13 @@ function Header() {
     { name: t('header.reservations'), link: '/reservations' },
     { name: t('header.about'), link: '/about' },
     { name: t('header.contact'), link: '/contact' },
+  ];
+
+  const languages = [
+    { code: 'en', label: 'EN', flag: enFlag },
+    { code: 'gr', label: 'GR', flag: grFlag },
+    { code: 'ro', label: 'RO', flag: roFlag },
+    { code: 'rs', label: 'RS', flag: rsFlag },
   ];
 
   const renderDesktopNav = (
@@ -151,8 +162,20 @@ function Header() {
             <LanguageIcon />
           </IconButton>
           <Menu anchorEl={anchorEl} open={open} onClose={() => handleMenuClose()}>
-            <MenuItem onClick={() => handleMenuClose('en')}>English</MenuItem>
-            <MenuItem onClick={() => handleMenuClose('de')}>Deutsch</MenuItem>
+            {languages.map(({ code, label, flag }) => (
+              <MenuItem
+                key={code}
+                onClick={() => handleMenuClose(code)}
+                style={{ display: 'flex', alignItems: 'center', gap: 8 }}
+              >
+                <img
+                  src={flag}
+                  alt={`${label} flag`}
+                  style={{ width: 20, height: 14, objectFit: 'cover' }}
+                />
+                {label}
+              </MenuItem>
+            ))}
           </Menu>
         </Box>
       </Drawer>

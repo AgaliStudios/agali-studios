@@ -52,7 +52,7 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: `'Unageo','Montserrat', 'Quicksand', 'Playfair Display', sans-serif`,
     h1: { fontSize: '3rem', fontWeight: 700, letterSpacing: '-0.01562em' },
     h2: { fontSize: '2.5rem', fontWeight: 700, letterSpacing: '-0.00833em' },
     h3: { fontSize: '2rem', fontWeight: 700, letterSpacing: '0em' },

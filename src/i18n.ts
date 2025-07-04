@@ -2,8 +2,10 @@ import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 import { initReactI18next } from 'react-i18next';
-import de from './locales/de.json';
+import el from './locales/el.json';
 import en from './locales/en.json';
+import ro from './locales/ro.json';
+import rs from './locales/rs.json';
 
 i18n
   .use(Backend) // load translations via HTTP (default public/locales)
@@ -17,7 +19,9 @@ i18n
     },
     resources: {
       en: { translation: en },
-      de: { translation: de },
+      gr: { translation: el },
+      ro: { translation: ro },
+      rs: { translation: rs },
     },
     react: {
       useSuspense: false, // true by default - for async loading
