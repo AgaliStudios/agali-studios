@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
-import logo from '../../assets/logo-white.png';
+import logo from '../../assets/logo-baise.png';
 
 function Footer() {
   const { t } = useTranslation();
