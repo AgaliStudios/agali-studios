@@ -8,14 +8,14 @@ import ro from './locales/ro.json';
 import rs from './locales/rs.json';
 
 i18n
-  .use(Backend) // load translations via HTTP (default public/locales)
+  .use(Backend)
   .use(LanguageDetector) // detect user language
   .use(initReactI18next) // pass to react-i18next
   .init({
-    fallbackLng: 'en',
-    debug: false, // set to true for debugging
+    fallbackLng: 'gr',
+    debug: false,
     interpolation: {
-      escapeValue: false, // react already escapes
+      escapeValue: false,
     },
     resources: {
       en: { translation: en },
