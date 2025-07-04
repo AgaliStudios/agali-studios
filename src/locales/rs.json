@@ -10,11 +10,17 @@
     "directions": "Uputstva"
   },
   "footer": {
-    "title": "Agali Studios. Sva prava zadržana"
+    "title": "Agali Studios. Sva prava zadržana",
+    "contact": "Kontakt",
+    "additionalInfo": "Dodatne informacije",
+    "howToCome": "Kako doći",
+    "followUs": "Pratite nas"
   },
   "home": {
-    "title": "Dobrodošli na početnu stranu",
-    "subtitle": "Ovo je početna stranica naše sjajne MUI + React Router aplikacije. Koristite navigaciju iznad da istražite."
+    "title": "Dobrodošli",
+    "text1": "Agali Studios je porodični biznis koji je započet 2025. godine.",
+    "text2": "Nalazi se pored mora na provincijskom putu Aidipsos-Lichados, nekoliko minuta vožnje od luka Loutra Aidipsou ili Agiokampos. U Loutra Aidipsou možete obaviti kupovinu i izaći na jelo ili piće.",
+    "text3": "Smeštaj ima ukupno 4 dvokrevetna apartmana sa balkonom. Svi su potpuno namešteni i imaju sve što je gostu potrebno za prijatan boravak. Sa balkona možete uživati u pogledu na more, dok u našem vrtu možete sesti u letnjikovac pored maslina."
   },
   "directions": {
     "title": "Uputstva",
@@ -36,7 +42,7 @@
   "accommodation": {
     "title": "Smeštaj",
     "subtitle": "Podnaslov smeštaja",
-    "text": "Tekst smeštaja"
+    "text": "Tekst o smeštaju"
   },
   "contact": {
     "title": "Kontaktirajte nas",
@@ -46,6 +52,6 @@
   "errorPage": {
     "error404": "404 - Stranica nije pronađena",
     "subtitle": "Žao nam je, stranica koju tražite ne postoji.",
-    "goHome": "Idi na Početnu"
+    "goHome": "Idi na početnu"
   }
 }

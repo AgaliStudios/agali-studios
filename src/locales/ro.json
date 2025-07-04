@@ -10,11 +10,17 @@
     "directions": "Indicații"
   },
   "footer": {
-    "title": "Agali Studios. Toate drepturile rezervate"
+    "title": "Agali Studios. Toate drepturile rezervate",
+    "contact": "Contact",
+    "additionalInfo": "Informații Suplimentare",
+    "howToCome": "Cum să ajungeți",
+    "followUs": "Urmărește-ne"
   },
   "home": {
-    "title": "Bine ați venit pe pagina principală",
-    "subtitle": "Aceasta este pagina principală a aplicației noastre grozave MUI + React Router. Folosiți navigarea de mai sus pentru a explora."
+    "title": "Bine ați venit",
+    "text1": "Agali Studios este o afacere de familie care a început în 2025.",
+    "text2": "Este situat pe malul mării, pe drumul provincial Aidipsos-Lichados, la câteva minute cu mașina de porturile Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și ieși la masă sau pentru o băutură.",
+    "text3": "Unitatea de cazare are în total 4 apartamente duble cu balcon. Sunt complet mobilate și oferă tot ce are nevoie un oaspete pentru un sejur plăcut. De pe balcon puteți admira vederea spre mare, iar în grădina noastră puteți sta la foișor, lângă măslini."
   },
   "directions": {
     "title": "Indicații",
@@ -44,8 +50,8 @@
     "send": "Trimite"
   },
   "errorPage": {
-    "error404": "404 - Pagină negăsită",
+    "error404": "404 - Pagina nu a fost găsită",
     "subtitle": "Ne pare rău, pagina pe care o căutați nu există.",
-    "goHome": "Du-te la Acasă"
+    "goHome": "Mergi la Acasă"
   }
 }

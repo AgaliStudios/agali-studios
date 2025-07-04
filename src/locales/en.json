@@ -10,33 +10,39 @@
     "directions": "Directions"
   },
   "footer": {
-    "title": "Agali Studios. All rights reserved"
+    "title": "Agali Studios. All rights reserved",
+    "contact": "Contact",
+    "additionalInfo": "Additional Information",
+    "howToCome": "How to Reach Us",
+    "followUs": "Follow Us"
   },
   "home": {
-    "title": "Welcome to the Home Page",
-    "subtitle": "This is the homepage of our awesome MUI + React Router app. Use the navigation above to explore."
+    "title": "Welcome",
+    "text1": "Agali Studios rental apartments are a family business started in 2025.",
+    "text2": "They are located by the sea on the provincial road Aidipsos-Lichados, just a few minutes by car from the ports of Loutra Aidipsou or Agiokampos. In Loutra Aidipsou, you can do your shopping and go out for food and drinks.",
+    "text3": "The accommodation has a total of 4 double apartments with balconies. They are all fully furnished and have everything a guest needs for a pleasant stay. From the balcony, you can enjoy the sea view, while in our garden you can sit at the gazebo next to the olive trees."
   },
   "directions": {
     "title": "Directions",
-    "subtitle": "Directions subtitle"
+    "subtitle": "Directions Subtitle"
   },
   "reservations": {
     "title": "Reservations",
-    "subtitle": "Reservations subtitle"
+    "subtitle": "Reservations Subtitle"
   },
   "location": {
     "title": "Location",
-    "subtitle": "Location subtitle"
+    "subtitle": "Location Subtitle"
   },
   "about": {
     "title": "About Us",
     "subtitle": "About Us Subtitle",
-    "text": "About Us Text"
+    "text": "About us text"
   },
   "accommodation": {
     "title": "Accommodation",
     "subtitle": "Accommodation Subtitle",
-    "text": "Accommodation Text"
+    "text": "Accommodation text"
   },
   "contact": {
     "title": "Contact Us",
