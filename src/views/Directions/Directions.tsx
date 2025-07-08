@@ -14,7 +14,7 @@ function Directions() {
       }}
     >
       <Grid container>
-        <Grid size={{ xs: 12 }}>
+        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
           <Box component="section">
             <Typography
               variant="h3"

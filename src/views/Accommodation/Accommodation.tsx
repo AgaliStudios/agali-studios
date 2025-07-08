@@ -38,67 +38,96 @@ export function Accommodation() {
             display: 'flex',
           }}
         >
-          <Grid
-            size={{ xs: 12, sm: 4 }}
-            sx={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: 1,
-            }}
-          >
-            <FloorPlanIcon sx={{ fontSize: '5rem' }} />
-            <Box>
-              <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                {t('accommodation.roomSize')}
-              </Typography>
-              <Typography variant="body2">{t('accommodation.roomSizeComment')}</Typography>
-            </Box>
-          </Grid>
+          <Grid container spacing={3} sx={{ display: 'flex', width: 1 }}>
+            <Grid
+              size={{ xs: 12, sm: 4 }}
+              sx={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: 1,
+              }}
+            >
+              <FloorPlanIcon
+                sx={{
+                  fontSize: {
+                    xs: '2rem',
+                    sm: '3rem',
+                    md: '4rem',
+                    lg: '5rem',
+                  },
+                }}
+              />
+              <Box>
+                <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
+                  {t('accommodation.roomSize')}
+                </Typography>
+                <Typography variant="body2">{t('accommodation.roomSizeComment')}</Typography>
+              </Box>
+            </Grid>
 
-          <Grid
-            size={{ xs: 12, sm: 4 }}
-            sx={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: 1,
-            }}
-          >
-            <BedIcon sx={{ fontSize: '5rem' }} />
-            <Box>
-              <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                {t('accommodation.bedSize')}
-              </Typography>
-              <Typography variant="body2">{t('accommodation.bedSizeComment')}</Typography>
-            </Box>
-          </Grid>
+            <Grid
+              size={{ xs: 12, sm: 4 }}
+              sx={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: 1,
+              }}
+            >
+              <BedIcon
+                sx={{
+                  fontSize: {
+                    xs: '2rem',
+                    sm: '3rem',
+                    md: '4rem',
+                    lg: '5rem',
+                  },
+                }}
+              />
+              <Box>
+                <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
+                  {t('accommodation.bedSize')}
+                </Typography>
+                <Typography variant="body2">{t('accommodation.bedSizeComment')}</Typography>
+              </Box>
+            </Grid>
 
-          <Grid
-            size={{ xs: 12, sm: 4 }}
-            sx={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: 1,
-            }}
-          >
-            <BeachIcon sx={{ fontSize: '5rem' }} />
-            <Box>
-              <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                {t('accommodation.beach')}
-              </Typography>
-              <Typography variant="body2">{t('accommodation.beachComment')}</Typography>
-            </Box>
+            <Grid
+              size={{ xs: 12, sm: 4 }}
+              sx={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: 1,
+              }}
+            >
+              <BeachIcon
+                sx={{
+                  fontSize: {
+                    xs: '2rem',
+                    sm: '3rem',
+                    md: '4rem',
+                    lg: '5rem',
+                  },
+                }}
+              />
+              <Box>
+                <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
+                  {t('accommodation.beach')}
+                </Typography>
+                <Typography variant="body2">{t('accommodation.beachComment')}</Typography>
+              </Box>
+            </Grid>
           </Grid>
         </Container>
       </Grid>
 
       <Container maxWidth="xl" sx={{ py: 3 }}>
-        <Grid container>
+        <Grid container spacing={3}>
           <Grid size={{ xs: 12 }}>
             <Box component="section">
               <Typography
@@ -112,7 +141,7 @@ export function Accommodation() {
             </Box>
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 8 }}>
+          <Grid size={{ xs: 12, sm: 8 }} sx={{ px: { xs: 3, sm: 6 } }}>
             <Box component="section" sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
               <Typography variant="body1" sx={{ textAlign: 'justify' }}>
                 {t('accommodation.text1')}
@@ -132,7 +161,7 @@ export function Accommodation() {
             </Box>
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 4 }} sx={{ padding: '0 0 0 1rem' }}>
+          <Grid size={{ xs: 12, sm: 4 }} sx={{ px: { xs: 3, sm: 6 } }}>
             <Grid
               size={{ xs: 12 }}
               sx={{

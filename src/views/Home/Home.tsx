@@ -7,15 +7,15 @@ export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <Grid container>
-      <Container
-        maxWidth="xl"
-        sx={{
-          py: 3,
-          display: 'flex',
-        }}
-      >
-        <Grid size={{ xs: 12 }}>
+    <Container
+      maxWidth="xl"
+      sx={{
+        py: 3,
+        display: 'flex',
+      }}
+    >
+      <Grid container>
+        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
           <Box component="section">
             <Typography
               variant="h3"
@@ -38,7 +38,7 @@ export default function Home() {
             </Box>
           </Box>
         </Grid>
-      </Container>
-    </Grid>
+      </Grid>
+    </Container>
   );
 }

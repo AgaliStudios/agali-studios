@@ -14,7 +14,7 @@ function Location() {
       }}
     >
       <Grid container sx={{ display: 'flex', gap: 5 }}>
-        <Grid size={{ xs: 12 }}>
+        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
           <Box component="section">
             <Typography
               variant="h3"
@@ -37,7 +37,7 @@ function Location() {
             </Box>
           </Box>
         </Grid>
-        <Grid size={{ xs: 12 }} sx={{ minHeight: '30rem' }}>
+        <Grid size={{ xs: 12 }} sx={{ minHeight: '30rem', px: { xs: 3, sm: 6 } }}>
           {/* <Grid size={{ xs: 12 }} sx={{ minHeight: { md: '30rem' } }}> */}
           <Box component="section" sx={{ width: 1, height: 1 }}>
             <iframe

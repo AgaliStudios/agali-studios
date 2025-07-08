@@ -16,7 +16,7 @@ function Reservations() {
       }}
     >
       <Grid container>
-        <Grid size={{ xs: 12 }}>
+        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
           <Box component="section" sx={{ textAlign: 'center' }}>
             <Typography
               variant="h3"
@@ -38,7 +38,13 @@ function Reservations() {
         </Grid>
         <Grid
           size={{ xs: 12 }}
-          sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', mt: '2rem' }}
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            mt: '2rem',
+            px: { xs: 3, sm: 6 },
+          }}
         >
           <Button
             variant="contained"
