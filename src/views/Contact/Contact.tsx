@@ -43,6 +43,13 @@ export default function Contact() {
                 </Link>
               </Typography>
               <Typography variant="body1" sx={{ textAlign: 'center' }}>
+                ✉️ <strong>{t('contact.email')}</strong>
+                <br />
+                <Link href="mailto:agkali.studios.1@gmail.com" underline="hover" color="inherit">
+                  agkali.studios.1@gmail.com
+                </Link>
+              </Typography>
+              <Typography variant="body1" sx={{ textAlign: 'center' }}>
                 📍 <strong>{t('contact.location')}</strong>
                 <br />
                 <Link

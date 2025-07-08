@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import About from '../About';
 import Accommodation from '../Accommodation';
 import Contact from '../Contact';
 import Directions from '../Directions';
@@ -16,7 +15,6 @@ export default function App() {
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
-        { path: 'about', element: <About /> },
         { path: 'accommodation', element: <Accommodation /> },
         { path: 'contact', element: <Contact /> },
         { path: 'directions', element: <Directions /> },

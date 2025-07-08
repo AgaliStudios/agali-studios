@@ -1,4 +1,5 @@
 // import FridgeIcon from '@mui/icons-material/Kitchen';
+import WifiIcon from '@mui/icons-material/Wifi';
 import { Box, Container, Grid, useTheme } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
@@ -187,6 +188,10 @@ export function Accommodation() {
               >
                 <Box>
                   {[
+                    {
+                      icon: <WifiIcon sx={{ fontSize: '2.5rem' }} />,
+                      label: t('accommodation.wifi'),
+                    },
                     {
                       icon: <OvenIcon sx={{ fontSize: '2.5rem' }} />,
                       label: t('accommodation.oven'),

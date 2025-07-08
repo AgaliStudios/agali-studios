@@ -2,84 +2,81 @@
   "header": {
     "myApp": "Agali Studios",
     "home": "Acasă",
-    "about": "Despre",
+    "about": "Despre noi",
     "contact": "Contact",
     "reservations": "Rezervări",
     "location": "Locație",
-    "accommodation": "Cazare",
-    "directions": "Indicații"
+    "accommodation": "Studiourile noastre",
+    "directions": "Direcții"
   },
   "footer": {
     "title": "Agali Studios. Toate drepturile rezervate",
     "contact": "Contact",
     "additionalInfo": "Informații",
-    "howToCome": "Cum să ajungi",
-    "followUs": "Urmărește-ne"
+    "howToCome": "Cum ajungi",
+    "followUs": "Urmează-ne"
   },
   "home": {
     "title": "Bine ați venit",
-    "text1": "Agali Studios este o afacere de familie care a început în 2025.",
-    "text2": "Este situat pe malul mării, pe drumul provincial Edipsos-Lichada, la doar câteva minute cu mașina de portul Loutra Edipsou sau Agiokampos. În Loutra Edipsou puteți face cumpărături și puteți savura mâncare și băuturi.",
-    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Toate sunt complet mobilate și echipate pentru un sejur plăcut. De pe balcon puteți admira priveliștea spre mare, iar în grădina noastră vă puteți relaxa în foișor lângă măslini."
+    "text1": "Agali Studios este o afacere de familie închiriată, începută în 2025.",
+    "text2": "Se află chiar la malul mării, pe drumul provincial Aidipsos–Lichados, la câteva minute cu mașina de portul din Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și puteți ieși la mâncare și băutură.",
+    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Sunt toate complet mobilate și includ tot ce are nevoie un oaspete pentru un sejur plăcut. De pe balcon te poți bucura de vedere spre mare, iar în grădina noastră te poți așeza în foișor lângă măslini."
   },
   "directions": {
-    "title": "Indicații",
-    "subtitle": "Subtitlu indicații"
+    "title": "Direcții",
+    "subtitle": "Subtitlu instrucțiuni"
   },
   "reservations": {
-    "title": "Rezervări",
-    "text1": "Vă mulțumim pentru interesul de a vă caza la noi!",
-    "text2": "Disponibilitatea se poate verifica prin formularul de mai jos. Dacă introduceți datele dorite și numărul de persoane, pagina vă va redirecționa automat către o platformă sigură de rezervări.",
+    "title": "Rezervare",
+    "text1": "Vă mulțumim pentru interesul de a sta la noi!",
+    "text2": "Disponibilitatea la proprietatea noastră poate fi verificată prin formularul de mai jos. Dacă introduceți datele dorite și numărul de persoane, site-ul nostru vă va redirecționa automat către platforma sigură de rezervări.",
     "text3": "Dacă aveți întrebări sau preferați să faceți rezervarea telefonic, nu ezitați să ne contactați.",
-    "reservationButton": "Verifică disponibilitatea / Rezervă"
+    "reservationButton": "Verifică Disponibilitatea / Rezervă"
   },
   "location": {
     "title": "Locație",
-    "text1": "Agali Studios este o afacere de familie care a început în 2025.",
-    "text2": "Este situat pe malul mării, pe drumul provincial Edipsos-Lichada, la doar câteva minute cu mașina de portul Loutra Edipsou sau Agiokampos. În Loutra Edipsou puteți face cumpărături și puteți savura mâncare și băuturi.",
-    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Toate sunt complet mobilate și echipate pentru un sejur plăcut. De pe balcon puteți admira priveliștea spre mare, iar în grădina noastră vă puteți relaxa în foișor lângă măslini."
-  },
-  "about": {
-    "title": "Despre noi",
-    "subtitle": "Subtitlu despre noi",
-    "text": "Text despre noi"
+    "text1": "Agali Studios este o afacere de familie închiriată, începută în 2025.",
+    "text2": "Se află chiar la malul mării, pe drumul provincial Aidipsos–Lichados, la câteva minute cu mașina de portul din Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și puteți ieși la mâncare și băutură.",
+    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Sunt toate complet mobilate și includ tot ce are nevoie un oaspete pentru un sejur plăcut. De pe balcon te poți bucura de vedere spre mare, iar în grădina noastră te poți așeza în foișor lângă măslini."
   },
   "accommodation": {
-    "title": "Cazare",
-    "text1": "Studiourile noastre de 28 mp, cu pat matrimonial, sunt ideale pentru două persoane/cupluri. Sunt complet mobilate și echipate cu aparate electrice pentru un sejur confortabil și o vacanță plăcută în zona noastră.",
-    "text2": "Mai exact, dispun de frigider, plite de gătit, cuptor încorporat, fierbător și toaster.",
-    "text3": "De asemenea, sunt echipate cu farfurii, pahare, tacâmuri și ustensile de bază pentru gătit, pe care le puteți folosi pe durata șederii.",
-    "text4": "În plus, toate apartamentele au baie proprie cu duș, prosoape și articole de igienă personală.",
-    "text5": "Balconul spațios are scaune și masă, pentru a vă bucura de micul dejun cu vedere către Golful Eubeic de Nord.",
+    "title": "Studiourile noastre",
+    "text1": "Studiourile noastre de 28 m² cu pat matrimonial sunt ideale pentru două persoane/cupluri. Sunt complet mobilate și echipate cu electrocasnice, pentru un sejur confortabil și o vacanță plăcută în zona noastră.",
+    "text2": "Mai exact, dispun de frigider, plite de gătit, cuptor încorporat, fierbător și prăjitor de pâine.",
+    "text3": "În plus sunt echipate cu farfurii, pahare, tacâmuri și ustensile de bază pentru gătit, pe care le puteți folosi în timpul șederii.",
+    "text4": "În cele din urmă, toate apartamentele au propria baie cu duș, prosoape și obiecte de igienă personală.",
+    "text5": "Balconul spațios are scaune și o masă pentru a vă savura micul dejun cu vedere spre Golful Nord-Evoikos.",
     "amenities": "Facilități",
-    "roomSize": "28 mp",
+    "roomSize": "28 m²",
     "roomSizeComment": "Ideal pentru cupluri",
     "bedSize": "Pat matrimonial",
-    "bedSizeComment": "Confort pentru 2 persoane",
+    "bedSizeComment": "Confortabil pentru 2 persoane",
     "beach": "Vedere la mare",
-    "beachComment": "În Golful Eubeic de Nord",
+    "beachComment": "Cu vedere spre Golful Nord-Evoikos",
+    "wifi": "Wi‑Fi gratuit",
     "oven": "Cuptor încorporat",
     "stove": "Plite de gătit",
-    "kitchenware": "Bucătărie complet echipată",
+    "kitchenware": "Bucătărie complet utilată",
     "fridge": "Frigider",
-    "toaster": "Toaster",
+    "toaster": "Prăjitor de pâine",
     "kettle": "Fierbător",
     "shower": "Duș",
     "towels": "Prosoape",
     "hygieneSet": "Articole de igienă personală"
   },
   "contact": {
-    "title": "Contactați-ne",
-    "haveQuestions": "Aveți întrebări sau doriți să faceți o rezervare? Suntem mereu aici să vă ajutăm!",
-    "onYourService": "<1>Agali Studios</1> este o afacere de familie creată cu dragoste pentru ospitalitate și respect pentru oaspeți. Așteptăm cu nerăbdare să vă primim în locul nostru frumos de lângă mare și să vă oferim un sejur relaxant și confortabil.",
-    "contactPhone": "Numere de contact:",
+    "title": "Contactează‑ne",
+    "haveQuestions": "Ai întrebări sau vrei să rezervi? Suntem mereu la dispoziția ta!",
+    "onYourService": "<1>Agali Studios</1> este o afacere de familie creată cu dragoste pentru ospitalitate și respect față de oaspete. Așteptăm cu nerăbdare să te primim în spațiul nostru frumos la malul mării și să-ți oferim un sejur relaxant și confortabil.",
+    "contactPhone": "Telefoane de contact:",
+    "email": "Email",
     "location": "Locație:",
-    "locationDetails": "Drumul provincial Edipsos - Lichada, la câteva minute de Loutra Edipsou și Agiokampos",
-    "happyToHelp": "Fie că este vorba de vacanță de vară sau o escapadă scurtă, suntem aici să facem șederea dvs. specială. Contactați-ne azi – vă vom ajuta cu plăcere!"
+    "locationDetails": " Drumul provincial Aidipsos – Lichada, la câteva minute de Loutra Aidipsou & Agiokampos",
+    "happyToHelp": "Fie că planifici o vacanță de vară sau o evadare scurtă, suntem aici să facem șederea ta unică. Contactează‑ne azi – ne-ar face plăcere să te servim!"
   },
   "errorPage": {
-    "error404": "404 - Pagina nu a fost găsită",
-    "subtitle": "Ne pare rău, pagina căutată nu există.",
-    "goHome": "Du-te la Acasă"
+    "error404": "404 – Pagina nu a fost găsită",
+    "subtitle": "Ne pare rău, pagina pe care o cauți nu există.",
+    "goHome": "Mergi la Acasă"
   }
 }

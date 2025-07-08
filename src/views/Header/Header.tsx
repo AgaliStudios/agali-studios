@@ -54,9 +54,8 @@ function Header() {
     { name: t('header.home'), link: '/' },
     { name: t('header.accommodation'), link: '/accommodation' },
     { name: t('header.location'), link: '/location' },
-    { name: t('header.directions'), link: '/directions' },
     { name: t('header.reservations'), link: '/reservations' },
-    { name: t('header.about'), link: '/about' },
+    { name: t('header.directions'), link: '/directions' },
     { name: t('header.contact'), link: '/contact' },
   ];
 
@@ -78,17 +77,29 @@ function Header() {
       }}
     >
       {pages.slice(0, 2).map((page) => (
-        <Button key={page.link} color="inherit" component={RouterLink} to={page.link}>
+        <Button
+          key={page.link}
+          color="inherit"
+          component={RouterLink}
+          to={page.link}
+          sx={{ fontSize: '1.2rem' }}
+        >
           {page.name}
         </Button>
       ))}
 
       <Box sx={{ cursor: 'pointer' }} onClick={() => navigate('/')}>
-        <img src={logo} alt="agali-studios-logo" height={80} />
+        <img src={logo} alt="agali-studios-logo" height={150} />
       </Box>
 
       {pages.slice(2, 4).map((page) => (
-        <Button key={page.link} color="inherit" component={RouterLink} to={page.link}>
+        <Button
+          key={page.link}
+          color="inherit"
+          component={RouterLink}
+          to={page.link}
+          sx={{ fontSize: '1.2rem' }}
+        >
           {page.name}
         </Button>
       ))}

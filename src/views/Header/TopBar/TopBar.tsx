@@ -43,12 +43,8 @@ function TopBar() {
     >
       <Container maxWidth="xl">
         <Grid container justifyContent="flex-end" spacing={2}>
-          <Button color="inherit" component={RouterLink} to="/reservations">
-            {t('header.reservations')}
-          </Button>
-
-          <Button color="inherit" component={RouterLink} to="/about">
-            {t('header.about')}
+          <Button color="inherit" component={RouterLink} to="/directions">
+            {t('header.directions')}
           </Button>
 
           <Button color="inherit" component={RouterLink} to="/contact">

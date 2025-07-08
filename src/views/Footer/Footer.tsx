@@ -1,4 +1,4 @@
-import FacebookIcon from '@mui/icons-material/Facebook';
+import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationPinIcon from '@mui/icons-material/LocationPin';
@@ -31,7 +31,7 @@ function Footer() {
               size={{ xs: 12, sm: 12, md: 3 }}
               sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
             >
-              <img src={logo} alt="agali-studios-logo" height={200} />
+              <img src={logo} alt="agali-studios-logo" height={150} />
             </Grid>
 
             <Grid size={{ xs: 12, sm: 4, md: 3 }} sx={{ color: theme.palette.text.secondary }}>
@@ -61,6 +61,17 @@ function Footer() {
                   +30 694 375 6551
                 </Link>
               </Typography>
+              <Typography variant="body2" sx={{ mb: 1 }}>
+                <Link
+                  href="mailto:agkali.studios.1@gmail.com"
+                  underline="hover"
+                  color="inherit"
+                  sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
+                >
+                  <EmailIcon />
+                  agkali.studios.1@gmail.com
+                </Link>
+              </Typography>
             </Grid>
 
             <Grid size={{ xs: 12, sm: 4, md: 3 }} sx={{ color: theme.palette.text.secondary }}>
@@ -88,7 +99,7 @@ function Footer() {
                 {t('footer.followUs')}
               </Typography>
               <Divider sx={{ backgroundColor: theme.palette.secondary.main, mb: 2 }} />
-              <Box sx={{ mb: 2 }}>
+              {/* <Box sx={{ mb: 2 }}>
                 <Link
                   href="#"
                   underline="hover"
@@ -100,10 +111,10 @@ function Footer() {
                   <FacebookIcon sx={{ color: '#1877F2' }} />
                   <Typography variant="body2">Facebook</Typography>
                 </Link>
-              </Box>
+              </Box> */}
               <Box sx={{ mb: 2 }}>
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/agali__studios/"
                   underline="hover"
                   color="inherit"
                   target="_blank"

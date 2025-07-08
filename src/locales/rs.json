@@ -6,79 +6,76 @@
     "contact": "Kontakt",
     "reservations": "Rezervacije",
     "location": "Lokacija",
-    "accommodation": "Smeštaj",
-    "directions": "Uputstva"
+    "accommodation": "Naša studija",
+    "directions": "Put do nas"
   },
   "footer": {
     "title": "Agali Studios. Sva prava zadržana",
     "contact": "Kontakt",
-    "additionalInfo": "Informacije",
+    "additionalInfo": "Dodatne informacije",
     "howToCome": "Kako doći",
     "followUs": "Pratite nas"
   },
   "home": {
-    "title": "Dobro došli",
-    "text1": "Agali Studios je porodični iznajmljivački posao koji je započeo 2025. godine.",
-    "text2": "Nalazi se pored mora na pokrajinskom putu Aidipso-Lihada, samo nekoliko minuta automobilom od luke Loutra Aidipso ili Agiokampos. U Loutra Aidipso možete kupiti potrepštine i izaći na hranu i piće.",
-    "text3": "Objekat ima ukupno 4 dvokrevetna apartmana sa balkonom. Svi su u potpunosti namešteni i opremljeni za prijatan boravak. Sa balkona možete uživati u pogledu na more, a u našem vrtu možete sesti u bašti pored maslina."
+    "title": "Dobrodošli",
+    "text1": "Agali Studios su porodični smeštaj koji je započeo rad 2025. godine.",
+    "text2": "Nalazi se pravo pored mora na seoskom putu Aidipsos–Lichados, nekoliko minuta vožnje od luke Loutra Aidipsou ili Agiokampos. U Loutra Aidipsou možete obaviti kupovinu i izaći na hranu i piće.",
+    "text3": "Smeštaj ima ukupno 4 dvokrevetna apartmana sa terasom. Svi su potpuno opremljeni i uključuju sve što gostu treba za prijatan boravak. Sa terase možete uživati u pogledu na more, a u našem vrtu možete da sednete u baldahin pored maslina."
   },
   "directions": {
-    "title": "Uputstva",
-    "subtitle": "Podnaslov uputstava"
+    "title": "Put do nas",
+    "subtitle": "Podnaslov uputstva"
   },
   "reservations": {
-    "title": "Rezervacije",
-    "text1": "Hvala vam na interesovanju da boravite kod nas!",
-    "text2": "Dostupnost možete proveriti kroz formular ispod. Unošenjem željenih datuma i broja osoba, stranica će vas automatski preusmeriti na bezbednu platformu za rezervacije.",
+    "title": "Rezervacija",
+    "text1": "Hvala na interesovanju da boravite kod nas!",
+    "text2": "Dostupnost našeg smeštaja može se proveriti putem obrasca ispod. Ako unesete željene datume i broj osoba, stranica će vas automatski preusmeriti na sigurnu platformu za rezervacije.",
     "text3": "Ako imate bilo kakvih pitanja ili više volite da rezervišete telefonom, slobodno nas kontaktirajte.",
     "reservationButton": "Proveri dostupnost / Rezerviši"
   },
   "location": {
     "title": "Lokacija",
-    "text1": "Agali Studios je porodični iznajmljivački posao koji je započeo 2025. godine.",
-    "text2": "Nalazi se pored mora na pokrajinskom putu Aidipso-Lihada, samo nekoliko minuta automobilom od luke Loutra Aidipso ili Agiokampos. U Loutra Aidipso možete kupiti potrepštine i izaći na hranu i piće.",
-    "text3": "Objekat ima ukupno 4 dvokrevetna apartmana sa balkonom. Svi su u potpunosti namešteni i opremljeni za prijatan boravak. Sa balkona možete uživati u pogledu na more, a u našem vrtu možete sesti u bašti pored maslina."
-  },
-  "about": {
-    "title": "O nama",
-    "subtitle": "Podnaslov o nama",
-    "text": "Tekst o nama"
+    "text1": "Agali Studios su porodični smeštaj koji je započeo rad 2025. godine.",
+    "text2": "Nalazi se pravo pored mora na seoskom putu Aidipsos–Lichados, nekoliko minuta vožnje od luke Loutra Aidipsou ili Agiokampos. U Loutra Aidipsou možete obaviti kupovinu i izaći na hranu i piće.",
+    "text3": "Smeštaj ima ukupno 4 dvokrevetna apartmana sa terasom. Svi su potpuno opremljeni i uključuju sve što gostu treba za prijatan boravak. Sa terase možete uživati u pogledu na more, a u našem vrtu možete da sednete u baldahin pored maslina."
   },
   "accommodation": {
-    "title": "Smeštaj",
-    "text1": "Naši studiji od 28m² sa bračnim krevetom su idealni za dve osobe/parove. Potpuno su namešteni i opremljeni električnim aparatima kako biste imali udoban boravak i uživali u odmoru u našem kraju.",
-    "text2": "Konkretno, imaju frižider, ringlu za kuvanje, ugrađenu rernu, bojler i toster.",
-    "text3": "Takođe su opremljeni tanjirima, čašama, priborom za jelo i osnovnim kuhinjskim posuđem koje možete koristiti tokom boravka.",
-    "text4": "Svi apartmani imaju svoje kupatilo sa tušem, peškirima i sredstvima za ličnu higijenu.",
-    "text5": "Prostrani balkon ima stolice i sto gde možete uživati u doručku sa pogledom na Severni Evijski zaliv.",
+    "title": "Naša studija",
+    "text1": "Naša studija od 28 m² sa francuskim krevetom idealna su za dve osobe/parove. Potpuno su nameštena i opremljena uređajima kako biste imali udoban boravak i uživali u odmoru u našem kraju.",
+    "text2": "Konkretno, imaju frižider, šporet, ugradnu rernu, ketler i toster.",
+    "text3": "Pored toga, opremljeni su tanjirima, čašama, escajgom i osnovnim kuhinjskim priborom koji možete koristiti tokom boravka.",
+    "text4": "Na kraju, svi apartmani imaju sopstveno kupatilo sa tušem, peškirima i higijenskim priborom.",
+    "text5": "Prostrana terasa ima stolice i sto, tako da možete uživati u doručku uz pogled na Severni Evoikoski zaliv.",
     "amenities": "Sadržaji",
-    "roomSize": "28 m²",
+    "roomSize": "28 m²",
     "roomSizeComment": "Idealno za parove",
-    "bedSize": "Bračan krevet",
-    "bedSizeComment": "Udobnost za 2 osobe",
+    "bedSize": "Francuski krevet",
+    "bedSizeComment": "Udoban za 2 osobe",
     "beach": "Pogled na more",
-    "beachComment": "Na Severnom Evijskom zalivu",
-    "oven": "Ugrađena rerna",
-    "stove": "Ringle za kuvanje",
+    "beachComment": "Preko Severnog Evoikoskog zaliva",
+    "wifi": "Besplatan Wi‑Fi",
+    "oven": "Ugradna rerna",
+    "stove": "Šporet",
     "kitchenware": "Potpuno opremljena kuhinja",
     "fridge": "Frižider",
     "toaster": "Toster",
-    "kettle": "Bojler",
+    "kettle": "Ketler",
     "shower": "Tuš",
     "towels": "Peškiri",
-    "hygieneSet": "Sredstva za ličnu higijenu"
+    "hygieneSet": "Higijenski set"
   },
   "contact": {
     "title": "Kontaktirajte nas",
-    "haveQuestions": "Imate pitanja ili želite da rezervišete? Uvek smo na raspolaganju!",
-    "onYourService": "<1>Agali Studios</1> je porodični biznis stvoren s ljubavlju prema gostoprimstvu i poštovanjem prema gostima. Radujemo se da vas ugostimo u našem prelepom prostoru pored mora i pružimo vam bezbrižan i udoban boravak.",
+    "haveQuestions": "Imate pitanja ili želite rezervaciju? Uvek smo vam na raspolaganju!",
+    "onYourService": "<1>Agali Studios</1> je porodični posao stvoren s ljubavlju prema gostoprimstvu i poštovanjem prema gostu. Radujemo se da vas dočekamo u našem divnom prostoru pored mora i pružimo vam opuštajući i udoban boravak.",
     "contactPhone": "Kontakt telefoni:",
+    "email": "Email",
     "location": "Lokacija:",
-    "locationDetails": "Pokrajinski put Aidipso - Lihada, nekoliko minuta od Loutra Aidipso i Agiokampos",
-    "happyToHelp": "Bilo da je letnji odmor ili kratki beg, ovde smo da vaš boravak učinimo posebnim. Kontaktirajte nas danas – rado ćemo vam pomoći!"
+    "locationDetails": " Seoski put Aidipsos – Lichada, nekoliko minuta od Loutra Aidipsou & Agiokampos",
+    "happyToHelp": "Bilo da planirate letnji odmor ili kratki beg, tu smo da vaš boravak bude jedinstven. Kontaktirajte nas danas – biće nam drago da vam služimo!"
   },
   "errorPage": {
-    "error404": "404 - Stranica nije pronađena",
+    "error404": "404 – Stranica nije pronađena",
     "subtitle": "Žao nam je, stranica koju tražite ne postoji.",
     "goHome": "Idi na početnu"
   }
