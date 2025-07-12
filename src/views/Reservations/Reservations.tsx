@@ -1,4 +1,4 @@
-import { Button, Grid, useTheme } from '@mui/material';
+import { Button, Grid, Link, useTheme } from '@mui/material';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
@@ -27,12 +27,10 @@ function Reservations() {
               {t('reservations.title')}
             </Typography>
 
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3, mt: 3 }}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, mt: 3 }}>
               <Typography variant="body1">{t('reservations.text1')}</Typography>
 
               <Typography variant="body1">{t('reservations.text2')}</Typography>
-
-              <Typography variant="body1">{t('reservations.text3')}</Typography>
             </Box>
           </Box>
         </Grid>
@@ -55,6 +53,21 @@ function Reservations() {
           >
             {t('reservations.reservationButton')}
           </Button>
+        </Grid>
+        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', textAlign: 'center', mt: 3 }}>
+            <Typography variant="body1">{t('reservations.text3')}</Typography>
+            <Typography variant="body1" sx={{ textAlign: 'center' }}>
+              <br />
+              <Link href="tel:+306987045409" underline="hover" color="inherit">
+                +30 698 704 5409
+              </Link>
+              <br />
+              <Link href="tel:+306943756551" underline="hover" color="inherit">
+                +30 694 375 6551
+              </Link>
+            </Typography>
+          </Box>
         </Grid>
       </Grid>
     </Container>
