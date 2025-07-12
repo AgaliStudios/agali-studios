@@ -2,6 +2,7 @@ import { Container, Grid } from '@mui/material';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
+import LocationCards from '../../widgets/LocationCards';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -37,6 +38,10 @@ export default function Home() {
               </Typography>
             </Box>
           </Box>
+        </Grid>
+
+        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
+          <LocationCards />
         </Grid>
       </Grid>
     </Container>
