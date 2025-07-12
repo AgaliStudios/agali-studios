@@ -2,81 +2,95 @@
   "header": {
     "myApp": "Agali Studios",
     "home": "Acasă",
-    "about": "Despre noi",
+    "about": "Despre",
     "contact": "Contact",
     "reservations": "Rezervări",
     "location": "Locație",
-    "accommodation": "Studiourile noastre",
-    "directions": "Direcții"
+    "accommodation": "Studiourile Noastre",
+    "directions": "Cum ajungeți"
   },
   "footer": {
     "title": "Agali Studios. Toate drepturile rezervate",
     "contact": "Contact",
     "additionalInfo": "Informații",
-    "howToCome": "Cum ajungi",
-    "followUs": "Urmează-ne"
+    "howToCome": "Cum ajungeți",
+    "followUs": "Urmărește-ne"
   },
   "home": {
     "title": "Bine ați venit",
-    "text1": "Agali Studios este o afacere de familie închiriată, începută în 2025.",
-    "text2": "Se află chiar la malul mării, pe drumul provincial Aidipsos–Lichados, la câteva minute cu mașina de portul din Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și puteți ieși la mâncare și băutură.",
-    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Sunt toate complet mobilate și includ tot ce are nevoie un oaspete pentru un sejur plăcut. De pe balcon te poți bucura de vedere spre mare, iar în grădina noastră te poți așeza în foișor lângă măslini."
+    "text1": "Agali Studios este o afacere de familie care a început în 2025.",
+    "text2": "Este situat pe malul mării, pe drumul provincial Aidipsos-Lichada, la doar câteva minute cu mașina de portul Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și ieși la masă sau la o băutură.",
+    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Toate sunt complet mobilate și echipate cu tot ce este necesar pentru un sejur plăcut. De pe balcon vă puteți bucura de priveliștea spre mare, iar în grădina noastră vă puteți relaxa în foișorul de lângă măslini.",
+    "cardTitle1": "Lichadonisia",
+    "cardSubtitle1": "Un paradis cu ape turcoaz și frumusețe naturală unică.",
+    "cardTitle2": "Plaja Milos",
+    "cardSubtitle2": "Refugiu natural cu nisip auriu și liniște de poveste.",
+    "cardTitle3": "Izvoarele Termale Aidipsos",
+    "cardSubtitle3": "Tratament natural prin izvoarele termale din Evia.",
+    "cardTitle4": "Vedere Agali Studios",
+    "cardSubtitle4": "Bucurați-vă de marea nesfârșită de la fereastra dumneavoastră."
   },
   "directions": {
-    "title": "Direcții",
-    "subtitle": "Subtitlu instrucțiuni"
+    "title": "Cum ajungeți",
+    "fromNorth": "Din nordul Greciei:",
+    "north1": "Cu feribotul din portul Glyfa",
+    "north1Sub": "Călătoria durează 25-30 de minute, iar programul complet este disponibil pe pagina",
+    "fromSouth": "Din sudul Greciei:",
+    "south1": "Cu feribotul din portul Arkitsa",
+    "south1Sub": "Călătoria durează 45-50 de minute, iar programul complet este disponibil pe pagina",
+    "south2": "Alternativ, prin podul înalt Chalkida, Prokopi și Istiaia"
   },
   "reservations": {
-    "title": "Rezervare",
-    "text1": "Vă mulțumim pentru interesul de a sta la noi!",
-    "text2": "Disponibilitatea la proprietatea noastră poate fi verificată prin formularul de mai jos. Dacă introduceți datele dorite și numărul de persoane, site-ul nostru vă va redirecționa automat către platforma sigură de rezervări.",
-    "text3": "Dacă aveți întrebări sau preferați să faceți rezervarea telefonic, nu ezitați să ne contactați.",
-    "reservationButton": "Verifică Disponibilitatea / Rezervă"
+    "title": "Rezervări",
+    "text1": "Vă mulțumim foarte mult pentru interesul de a vă caza la noi!",
+    "text2": "Disponibilitatea poate fi verificată prin aplicația Booking:",
+    "text3": "Alternativ, ne puteți contacta pentru a face o rezervare telefonic:",
+    "reservationButton": "Verificare Disponibilitate / Rezervă Acum"
   },
   "location": {
     "title": "Locație",
-    "text1": "Agali Studios este o afacere de familie închiriată, începută în 2025.",
-    "text2": "Se află chiar la malul mării, pe drumul provincial Aidipsos–Lichados, la câteva minute cu mașina de portul din Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și puteți ieși la mâncare și băutură.",
-    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Sunt toate complet mobilate și includ tot ce are nevoie un oaspete pentru un sejur plăcut. De pe balcon te poți bucura de vedere spre mare, iar în grădina noastră te poți așeza în foișor lângă măslini."
+    "text1": "Agali Studios este o afacere de familie care a început în 2025.",
+    "text2": "Este situat pe malul mării, pe drumul provincial Aidipsos-Lichada, la doar câteva minute cu mașina de portul Loutra Aidipsou sau Agiokampos. În Loutra Aidipsou puteți face cumpărături și ieși la masă sau la o băutură.",
+    "text3": "Proprietatea are în total 4 apartamente duble cu balcon. Toate sunt complet mobilate și echipate cu tot ce este necesar pentru un sejur plăcut. De pe balcon vă puteți bucura de priveliștea spre mare, iar în grădina noastră vă puteți relaxa în foișorul de lângă măslini."
   },
   "accommodation": {
-    "title": "Studiourile noastre",
-    "text1": "Studiourile noastre de 28 m² cu pat matrimonial sunt ideale pentru două persoane/cupluri. Sunt complet mobilate și echipate cu electrocasnice, pentru un sejur confortabil și o vacanță plăcută în zona noastră.",
-    "text2": "Mai exact, dispun de frigider, plite de gătit, cuptor încorporat, fierbător și prăjitor de pâine.",
-    "text3": "În plus sunt echipate cu farfurii, pahare, tacâmuri și ustensile de bază pentru gătit, pe care le puteți folosi în timpul șederii.",
-    "text4": "În cele din urmă, toate apartamentele au propria baie cu duș, prosoape și obiecte de igienă personală.",
-    "text5": "Balconul spațios are scaune și o masă pentru a vă savura micul dejun cu vedere spre Golful Nord-Evoikos.",
+    "title": "Studiourile Noastre",
+    "text1": "Studiourile noastre de 28 mp, cu un pat matrimonial, sunt ideale pentru două persoane sau cupluri. Sunt complet mobilate și dotate cu electrocasnice, pentru un sejur confortabil și relaxant în zona noastră.",
+    "text2": "Mai exact, dispun de frigider, plite de gătit, cuptor încorporat, fierbător de apă și prăjitor de pâine.",
+    "text3": "De asemenea, sunt echipate cu farfurii, pahare, tacâmuri și ustensile de bază pentru gătit pe care le puteți folosi în timpul sejurului.",
+    "text4": "Toate apartamentele au baie proprie cu duș, prosoape și produse de igienă personală.",
+    "text5": "Balconul spațios are scaune și masă pentru a vă bucura de micul dejun cu vedere spre Golful Eviei de Nord.",
     "amenities": "Facilități",
-    "roomSize": "28 m²",
+    "roomSize": "28 mp",
     "roomSizeComment": "Ideal pentru cupluri",
     "bedSize": "Pat matrimonial",
     "bedSizeComment": "Confortabil pentru 2 persoane",
     "beach": "Vedere la mare",
-    "beachComment": "Cu vedere spre Golful Nord-Evoikos",
-    "wifi": "Wi‑Fi gratuit",
+    "beachComment": "Spre Golful Eviei de Nord",
+    "wifi": "WiFi gratuit",
     "oven": "Cuptor încorporat",
     "stove": "Plite de gătit",
-    "kitchenware": "Bucătărie complet utilată",
+    "kitchenware": "Bucătărie complet echipată",
     "fridge": "Frigider",
     "toaster": "Prăjitor de pâine",
-    "kettle": "Fierbător",
+    "kettle": "Fierbător de apă",
     "shower": "Duș",
     "towels": "Prosoape",
-    "hygieneSet": "Articole de igienă personală"
+    "hygieneSet": "Produse de igienă personală"
   },
   "contact": {
-    "title": "Contactează‑ne",
-    "haveQuestions": "Ai întrebări sau vrei să rezervi? Suntem mereu la dispoziția ta!",
-    "onYourService": "<1>Agali Studios</1> este o afacere de familie creată cu dragoste pentru ospitalitate și respect față de oaspete. Așteptăm cu nerăbdare să te primim în spațiul nostru frumos la malul mării și să-ți oferim un sejur relaxant și confortabil.",
-    "contactPhone": "Telefoane de contact:",
+    "title": "Contactați-ne",
+    "haveQuestions": "Aveți întrebări sau doriți să faceți o rezervare? Suntem mereu la dispoziția dumneavoastră!",
+    "onYourService": "<1>Agali Studios</1> este o afacere de familie creată cu dragoste pentru ospitalitate și respect pentru oaspeți. Așteptăm cu nerăbdare să vă întâmpinăm în spațiul nostru frumos, lângă mare, și să vă oferim un sejur lipsit de griji și confortabil.",
+    "contactPhone": "Numere de telefon:",
     "email": "Email",
     "location": "Locație:",
-    "locationDetails": " Drumul provincial Aidipsos – Lichada, la câteva minute de Loutra Aidipsou & Agiokampos",
-    "happyToHelp": "Fie că planifici o vacanță de vară sau o evadare scurtă, suntem aici să facem șederea ta unică. Contactează‑ne azi – ne-ar face plăcere să te servim!"
+    "locationDetails": "Drumul provincial Aidipsos - Lichada, la câteva minute de Loutra Aidipsou & Agiokampos",
+    "happyToHelp": "Fie că este vorba de vacanța de vară sau o escapadă scurtă, suntem aici pentru a face șederea dumneavoastră de neuitat. Contactați-ne astăzi – vom fi bucuroși să vă ajutăm!"
   },
   "errorPage": {
-    "error404": "404 – Pagina nu a fost găsită",
-    "subtitle": "Ne pare rău, pagina pe care o cauți nu există.",
-    "goHome": "Mergi la Acasă"
+    "error404": "404 - Pagină inexistentă",
+    "subtitle": "Ne pare rău, pagina pe care o căutați nu există.",
+    "goHome": "Înapoi la Acasă"
   }
 }
