@@ -81,7 +81,7 @@ function Footer() {
               <Divider sx={{ backgroundColor: theme.palette.secondary.main, mb: 2 }} />
               <Box sx={{ mb: 2 }}>
                 <Link
-                  href="https://www.google.com/maps/place/%CE%9B%CE%BF%CF%85%CF%84%CF%81%CE%AC+%CE%91%CE%B9%CE%B4%CE%B7%CF%88%CE%BF%CF%8D+343+00/@38.8606634,23.0357925,15z/data=!3m1!4b1!4m6!3m5!1s0x14a0ca2c713fad9f:0x567121b8a061f1d2!8m2!3d38.8591927!4d23.045529!16s%2Fg%2F121kv_vm?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://maps.app.goo.gl/Yjh4kmKJ8LYDGVyy5"
                   underline="hover"
                   color="inherit"
                   target="_blank"
