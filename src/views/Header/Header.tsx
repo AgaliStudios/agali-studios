@@ -83,12 +83,19 @@ function Header() {
           component={RouterLink}
           to={page.link}
           sx={{ fontSize: '1.2rem' }}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           {page.name}
         </Button>
       ))}
 
-      <Box sx={{ cursor: 'pointer' }} onClick={() => navigate('/')}>
+      <Box
+        sx={{ cursor: 'pointer' }}
+        onClick={() => {
+          navigate('/');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
         <img src={logo} alt="agali-studios-logo" height={150} />
       </Box>
 
@@ -99,6 +106,7 @@ function Header() {
           component={RouterLink}
           to={page.link}
           sx={{ fontSize: '1.2rem' }}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           {page.name}
         </Button>
@@ -130,7 +138,10 @@ function Header() {
           transform: 'translateX(-50%)',
           cursor: 'pointer',
         }}
-        onClick={() => navigate('/')}
+        onClick={() => {
+          navigate('/');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
       >
         <img src={logo} alt="agali-studios-logo" height={60} />
       </Box>
@@ -159,6 +170,7 @@ function Header() {
                 disablePadding
                 onClick={() => {
                   navigate(page.link);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
                   handleDrawerToggle();
                 }}
               >

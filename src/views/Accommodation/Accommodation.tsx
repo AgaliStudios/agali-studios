@@ -15,6 +15,7 @@ import PersonalHygieneIcon from '../../widgets/CustomIcons/PersonalHygieneIcon';
 import ShowerIcon from '../../widgets/CustomIcons/ShowerIcon';
 import ToasterIcon from '../../widgets/CustomIcons/ToasterIcon';
 import TowelsIcon from '../../widgets/CustomIcons/TowelsIcon';
+import RoomImages from '../../widgets/RoomImages';
 
 export function Accommodation() {
   const { t } = useTranslation();
@@ -172,7 +173,7 @@ export function Accommodation() {
                 padding: '1rem',
                 color: theme.palette.text.secondary,
                 width: 1,
-                height: 1,
+                // height: 1,
               }}
             >
               <Typography variant="h5" sx={{ textAlign: 'center' }}>
@@ -247,6 +248,9 @@ export function Accommodation() {
                 </Box>
               </Box>
             </Grid>
+          </Grid>
+          <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
+            <RoomImages />
           </Grid>
         </Grid>
       </Container>

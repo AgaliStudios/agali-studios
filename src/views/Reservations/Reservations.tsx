@@ -38,20 +38,31 @@ function Reservations() {
           size={{ xs: 12 }}
           sx={{
             display: 'flex',
+            flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
             mt: '2rem',
             px: { xs: 3, sm: 6 },
+            gap: 2,
           }}
         >
           <Button
             variant="contained"
             sx={{ backgroundColor: theme.palette.primary.dark }}
             size="large"
-            href="https://www.booking.com/hotel/gr/agali-studios.html"
+            href="https://www.booking.com/hotel/gr/agali-studios-1.el.html?aid=304142&dest_id=900052133&dest_type=city&group_adults=2&group_children=0&label=gen173nr-1BCAEoggI46AdIM1gEaDuIAQGYAQi4ARjIAQzYAQHoAQGIAgGoAgS4AqCL7cMGwAIB0gIkYzQ2NWFjNzItOGQ2My00Y2JjLThmYzUtMTEwMGJjNDQ2ODkw2AIF4AIB-Share-fSVIrqr%401752909556&no_rooms=1&req_adults=2&req_children=0"
             target="_blank"
           >
-            {t('reservations.reservationButton')}
+            {t('reservations.reservationButton') + ' (Agali Studios 1)'}
+          </Button>
+          <Button
+            variant="contained"
+            sx={{ backgroundColor: theme.palette.primary.dark }}
+            size="large"
+            href="https://www.booking.com/hotel/gr/agali-studios-2.el.html?aid=304142&dest_id=900052133&dest_type=city&group_adults=2&group_children=0&label=gen173nr-1BCAEoggI46AdIM1gEaDuIAQGYAQi4ARjIAQzYAQHoAQGIAgGoAgS4AqCL7cMGwAIB0gIkYzQ2NWFjNzItOGQ2My00Y2JjLThmYzUtMTEwMGJjNDQ2ODkw2AIF4AIB-Share-PrIRxiM%401752909527&no_rooms=1"
+            target="_blank"
+          >
+            {t('reservations.reservationButton') + ' (Agali Studios 2)'}
           </Button>
         </Grid>
         <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
