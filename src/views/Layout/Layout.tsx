@@ -4,13 +4,11 @@ import { Outlet } from 'react-router-dom';
 import ImageCarousel from '../../widgets/ImageCarousel';
 import Footer from '../Footer';
 import Header from '../Header';
-import TopBar from '../Header/TopBar';
 
 export default function Layout() {
   const theme = useTheme();
   return (
     <Grid container direction="column" sx={{ minHeight: '100vh', minWidth: '100vw' }}>
-      <TopBar />
       <Header />
 
       {/* Main content centered and contained */}

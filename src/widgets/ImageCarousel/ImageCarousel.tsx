@@ -15,7 +15,7 @@ const ImageCarousel = () => {
   }));
 
   return (
-    <Box sx={{ width: '100%', height: 'auto', maxHeight: '60vh', mx: 'auto' }}>
+    <Box sx={{ width: '100%', height: 'auto', maxHeight: '70vh', mx: 'auto' }}>
       <ImageGallery
         items={galleryItems}
         autoPlay
@@ -33,7 +33,7 @@ const ImageCarousel = () => {
             style={{
               width: '100%',
               height: 'auto',
-              maxHeight: '60vh',
+              maxHeight: '70vh',
               objectFit: 'cover',
             }}
           />

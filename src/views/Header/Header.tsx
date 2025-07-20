@@ -26,6 +26,7 @@ import grFlag from '../../assets/flags/gr.svg';
 import roFlag from '../../assets/flags/ro.svg';
 import rsFlag from '../../assets/flags/rs.svg';
 import logo from '../../assets/logo.png';
+import TopBar from './TopBar';
 
 function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -74,6 +75,7 @@ function Header() {
         alignItems: 'center',
         gap: 2,
         width: 1,
+        // IMPORTANT for absolute positioning of logo
       }}
     >
       {pages.slice(0, 2).map((page) => (
@@ -89,14 +91,30 @@ function Header() {
         </Button>
       ))}
 
-      <Box
-        sx={{ cursor: 'pointer' }}
-        onClick={() => {
-          navigate('/');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}
-      >
-        <img src={logo} alt="agali-studios-logo" height={150} />
+      {/* Logo as a floating layer */}
+
+      <Box sx={{ width: 200, position: 'relative' }}>
+        <Box
+          sx={{
+            cursor: 'pointer',
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            backgroundColor: 'white',
+            borderRadius: '100%',
+            padding: 1,
+            boxShadow: 3,
+            zIndex: 10,
+            display: 'flex',
+          }}
+          onClick={() => {
+            navigate('/');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
+          <img src={logo} alt="agali-studios-logo" height={150} />
+        </Box>
       </Box>
 
       {pages.slice(2, 4).map((page) => (
@@ -215,6 +233,7 @@ function Header() {
         zIndex: (theme) => theme.zIndex.appBar,
       }}
     >
+      <TopBar />
       <Container maxWidth="xl">
         <Toolbar sx={{ py: 2 }}>
           {renderDesktopNav}
