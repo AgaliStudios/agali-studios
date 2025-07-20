@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 export default defineConfig(() => {
   return {
     plugins: [react()],
-    base: '/agali-studios/',
+    base: '/',
     server: {
       open: true,
       port: 3000,
