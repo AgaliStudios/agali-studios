@@ -143,7 +143,7 @@ export function Accommodation() {
             </Box>
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 8 }} sx={{ px: { xs: 3, sm: 6 } }}>
+          <Grid size={{ xs: 12, sm: 8 }} sx={{ px: { xs: 3, sm: 3, md: 4, lg: 6 } }}>
             <Box component="section" sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
               <Typography variant="body1" sx={{ textAlign: 'justify' }}>
                 {t('accommodation.text1')}
@@ -163,7 +163,7 @@ export function Accommodation() {
             </Box>
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 4 }} sx={{ px: { xs: 3, sm: 6 } }}>
+          <Grid size={{ xs: 12, sm: 4 }} sx={{ px: { xs: 3, sm: 2, md: 4, lg: 6 } }}>
             <Grid
               size={{ xs: 12 }}
               sx={{
@@ -249,7 +249,7 @@ export function Accommodation() {
               </Box>
             </Grid>
           </Grid>
-          <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
+          <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 2, md: 4, lg: 6 } }}>
             <RoomImages />
           </Grid>
         </Grid>
