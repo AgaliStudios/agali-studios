@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import LocationCards from '../../widgets/LocationCards';
+import SlideInSection from '../../widgets/SlideInSection';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -40,37 +41,41 @@ export default function Home() {
           </Box>
         </Grid>
 
-        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
-          <Divider sx={{ my: '2rem' }} />
-          <Typography
-            variant="h3"
-            component="h1"
-            gutterBottom
-            sx={{ textAlign: 'center', textTransform: 'uppercase', mb: 'unset' }}
-          >
-            {t('home.rooms')}
-          </Typography>
-          <Typography variant="body1" sx={{ textAlign: 'center' }}>
-            {t('home.roomsDesc')}
-          </Typography>
-          <LocationCards type="rooms" />
-        </Grid>
+        <SlideInSection direction="left" stagger={0.2}>
+          <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
+            <Divider sx={{ my: '2rem' }} />
+            <Typography
+              variant="h3"
+              component="h1"
+              gutterBottom
+              sx={{ textAlign: 'center', textTransform: 'uppercase', mb: 'unset' }}
+            >
+              {t('home.rooms')}
+            </Typography>
+            <Typography variant="body1" sx={{ textAlign: 'center' }}>
+              {t('home.roomsDesc')}
+            </Typography>
+            <LocationCards type="rooms" />
+          </Grid>
+        </SlideInSection>
 
-        <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
-          <Divider sx={{ my: '2rem' }} />
-          <Typography
-            variant="h3"
-            component="h1"
-            gutterBottom
-            sx={{ textAlign: 'center', textTransform: 'uppercase', mb: 'unset' }}
-          >
-            {t('home.sights')}
-          </Typography>
-          <Typography variant="body1" sx={{ textAlign: 'center' }}>
-            {t('home.sightsDesc')}
-          </Typography>
-          <LocationCards type="location" />
-        </Grid>
+        <SlideInSection direction="right" stagger={0.1}>
+          <Grid size={{ xs: 12 }} sx={{ px: { xs: 3, sm: 6 } }}>
+            <Divider sx={{ my: '2rem' }} />
+            <Typography
+              variant="h3"
+              component="h1"
+              gutterBottom
+              sx={{ textAlign: 'center', textTransform: 'uppercase', mb: 'unset' }}
+            >
+              {t('home.sights')}
+            </Typography>
+            <Typography variant="body1" sx={{ textAlign: 'center' }}>
+              {t('home.sightsDesc')}
+            </Typography>
+            <LocationCards type="location" />
+          </Grid>
+        </SlideInSection>
       </Grid>
     </Container>
   );

@@ -2,14 +2,13 @@
 import { Box } from '@mui/material';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import photo1 from '../../assets/carousel/1.jpg';
+import photo2 from '../../assets/carousel/2.jpg';
+import photo3 from '../../assets/carousel/3.jpg';
+import photo4 from '../../assets/carousel/4.jpg';
 
 const ImageCarousel = () => {
-  const images = [
-    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80',
-    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80',
-    'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80',
-    'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80',
-  ];
+  const images = [photo1, photo2, photo3, photo4];
   const galleryItems = images.map((url) => ({
     original: url,
     thumbnail: url,
